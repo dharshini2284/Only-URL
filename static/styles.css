@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #f1f8e9); /* Mild gradient */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px; /* Adjusted container width */
+    margin: auto;
+    background: #ffffff; /* White background for the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333333; /* Dark gray for better contrast */
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8); /* Soft white shadow */
+    padding: 10px; /* Optional: Add padding for better spacing */
+    background-color: rgba(255, 255, 255, 0.7); /* Light background to enhance visibility */
+    border-radius: 5px; /* Rounded corners for the background */
+}
+
+.input-field {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%; /* Full width for input fields */
+}
+
+.input-field:focus {
+    border-color: #4CAF50; /* Green focus border */
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.button {
+    display: inline-block;
+    background-color: #007BFF; /* Blue */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 5px 0; /* Spacing between buttons */
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+a {
+    text-decoration: none;
+    color: #ff6b6b; /* Soft red */
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #c0392b; /* Darker red on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-button {
+    background-color: #4CAF50; /* Green */
+}
+
+.edit-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.delete-button {
+    background-color: #ff6b6b; /* Soft red */
+}
+
+.delete-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+    border-color: #4CAF50; /* Green focus border */
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.flashes {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.flashes li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.success {
+    background-color: #d4edda; /* Light green */
+    color: #155724; /* Dark green */
+}
+
+.danger {
+    background-color: #f8d7da; /* Light red */
+    color: #721c24; /* Dark red */
+}
